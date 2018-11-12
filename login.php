@@ -15,7 +15,7 @@ if(isset($_POST['submit']))
 {
 if($user=="me" AND $pass==123)
 {
-header("Location:login2.php");
+header("Location:login.php");
 }
 else
 {
